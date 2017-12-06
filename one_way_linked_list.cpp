@@ -38,7 +38,7 @@ void SBase::add(string name, string last_name, int age){
 	}
 	else {
 		SElement *temp = first;
-		cout << "I'm walking thrue all elements in base until i found last element." << endl;
+		cout << "I'm walking thru all elements in base until i found last element." << endl;
 
 		while (temp->next){
 		temp = temp->next;
