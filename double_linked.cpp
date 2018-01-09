@@ -26,8 +26,8 @@ struct SBase{
 	void show_head();
 	void show_tail();
 	int remove_one(int);
-    bool ifempty();
-    int how_many();
+    	bool ifempty();
+    	int how_many();
 	SBase(){
 		head=tail=0;
 	}
